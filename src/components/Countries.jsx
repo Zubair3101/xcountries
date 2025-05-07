@@ -14,7 +14,7 @@ function Countries() {
         let finalData = await rawData.json();
         setCountriesData(finalData);
       } catch (error) {
-        console.log(`Error fetching data: ${error.message}`);
+        console.erorr(`Error fetching data: ${error.message}`);
       }
     }
 
